@@ -1,0 +1,28 @@
+# macOS et éditeurs
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python : environnements, caches et distributions
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+secrets.yaml
+.storage/
+home-assistant.log*
+home-assistant_v2.db*
